@@ -20,10 +20,6 @@
 	src: url('fonts/entypo/entypo.eot?#iefix') format('eot'), url('fonts/entypo/entypo.woff') format('woff'), url('fonts/entypo/entypo.ttf') format('truetype'), url('fonts/entypo/entypo.svg#entypo') format('svg');
 }
 <<<<<<< HEAD
-@font-face {
-  font-family: "Lato";
-  src: url("fonts/Lato/Lato-Light.ttf");
-  }
 =======
 >>>>>>> e737e50e27e39b19a01fbe6601a38826509ec0ad
 
@@ -2030,8 +2026,11 @@ body {
 }
 
 .collapsible {
-  background-color: #777;
-  color: white;
+  background-color: #EBEBEB;
+  color: black;
+  border: 2px;
+  border-color: #777;
+  border-radius: 1rem;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -2040,22 +2039,29 @@ body {
   outline: none;
   font-size: 15px;
   padding: 20px 15px 20px 15px !important; 
+  transition: all 0.2s ease-out;
 }
 
 .active, .collapsible:hover {
-  background-color: #999;
+  background-color: #444;
+  color: white;
 }
 
 .collapsible:after {
   content: '\002B';
-  color: white;
+  color: black;
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
+.collapsible.active {
+	transition: all 0.2s ease-out;	
+	border-radius: 1rem 1rem 0 0;
+}
 
 .active:after {
   content: "\2212";
+  color: white;
 }
 
 .content {
@@ -2064,6 +2070,7 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+  border-radius: 0 0 1rem 1rem;
 }
 
 #tabbed .apply-cell {
