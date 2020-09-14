@@ -2074,5 +2074,6 @@ body {
 @media screen and (max-width:700px) {
 	#tabbed .apply-cell {
 		width: 70px !important;
+		margin: 0 calc(50% - 5px) 10px calc(50% - 5px);
 	}
 }
