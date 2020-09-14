@@ -19,6 +19,10 @@
 	src: url('fonts/entypo/entypo.eot');
 	src: url('fonts/entypo/entypo.eot?#iefix') format('eot'), url('fonts/entypo/entypo.woff') format('woff'), url('fonts/entypo/entypo.ttf') format('truetype'), url('fonts/entypo/entypo.svg#entypo') format('svg');
 }
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato/Lato-Regular.ttf");
+  }
 
 .entypo-note:before {
 	content: "\266a"
