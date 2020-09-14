@@ -7,7 +7,7 @@
 
 *****************************************************/
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic);
+
 
 /* Entypo pictograms by Daniel Bruce — www.entypo.com */
 
@@ -19,6 +19,13 @@
 	src: url('fonts/entypo/entypo.eot');
 	src: url('fonts/entypo/entypo.eot?#iefix') format('eot'), url('fonts/entypo/entypo.woff') format('woff'), url('fonts/entypo/entypo.ttf') format('truetype'), url('fonts/entypo/entypo.svg#entypo') format('svg');
 }
+<<<<<<< HEAD
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato/Lato-Light.ttf");
+  }
+=======
+>>>>>>> e737e50e27e39b19a01fbe6601a38826509ec0ad
 
 .entypo-note:before {
 	content: "\266a"
@@ -2057,4 +2064,15 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+
+#tabbed .apply-cell {
+	width: 12% !important; 
+	margin: 0 44% 10px 44%;
+}
+
+@media screen and (max-width:700px) {
+	#tabbed .apply-cell {
+		width: 70px !important;
+	}
 }
