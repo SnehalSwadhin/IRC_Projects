@@ -1547,6 +1547,10 @@
 	background: #333
 }
 
+#tabbed .button.apply {
+	background: #A2D94B
+}
+
 #tabbed .button.grey.light {
 	background: #bbb
 }
@@ -1557,6 +1561,10 @@
 
 #tabbed .button.black:hover {
 	background: #6e98e3
+}
+
+#tabbed .button.apply:hover {
+	background: #8DCA2B;
 }
 
 #tabbed .button.grey:hover {
